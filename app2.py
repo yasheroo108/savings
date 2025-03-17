@@ -2,8 +2,8 @@ import streamlit as st
 
 st.set_page_config(page_title="Budgeting Calculator | ISU 3", layout="centered")
 
-st.title("Budgeting Calculator")
-st.markdown("[test](https://www.google.com)")
+st.title("Savings Calculator")
+st.markdown("[Income Percentile Calculator](https://income-percentile.streamlit.app/)")
 
 time = st.selectbox("How often do you plan on saving? Every...", ("day", "week", "month", "year"))
 
